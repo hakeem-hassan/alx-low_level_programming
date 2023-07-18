@@ -1,13 +1,13 @@
 #include "main.h"
 
         /**
-
+	 *
          * main - print _putchar
-
+	 *
          * is written by hakeem
-
+	 *
          * Return: 0
-
+	 * 
          */
 
         int main(void)
