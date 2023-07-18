@@ -1,15 +1,8 @@
 #include "main.h"
 /**
-<<<<<<< HEAD
  * print_alphabet_x10 - make alphabet x10 times
  * Return: void
  */
-
-=======
-* print_alphabet_x10 - make alphabet x10 times 
-* Return: void
-*/
->>>>>>> c4a512b606c132f263c6a8533e41f2ccbe6573d1
 void print_alphabet_x10(void)
 {
 char ch;
