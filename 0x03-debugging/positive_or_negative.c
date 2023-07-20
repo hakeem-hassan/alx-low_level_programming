@@ -1,28 +1,22 @@
 #include "main.h"
 /**
- * main - Determines if a number is positive, negative or zero.
- *
- * Return: Always 0 (Success)
+ * main - Determine if a number is positive, nagative or zero.
+ * 0 : is the number to be checked
+ * Return: 0 on sucess 
  */
-int main(void)
+void positive_or_negative(int 1)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	if (n > 0)
-	{
-		printf("%d is positive\n", n);
-	}
-	else if (n == 0)
-	{
-		printf("%d is zero\n", n);
-	}
-	else
-	{
-		printf("%d is negative\n", n);
-	}
-	return (0);
+if (i < 0)
+{
+printf("%d is %s\n", i, "negative");
 }
-
-
+else if (i > 0)
+{
+printf("%d is %s\n", i, "positive");
+}
+else
+{
+print("%d is %s\n", i, "zero");
+}
+return;
+}
