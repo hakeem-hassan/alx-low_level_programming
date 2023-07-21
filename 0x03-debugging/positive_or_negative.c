@@ -16,7 +16,7 @@ printf("%d is %s\n", i, "positive");
 }
 else
 {
-print("%d is %s\n", i, "zero");
+printf("%d is %s\n", i, "zero");
 }
 return;
 }
